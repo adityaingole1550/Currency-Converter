@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="heading">&#128177 Currency Converter</div>
+        <div id="heading2">Convert currencies instantly</div>
+        <div id="labeldiv">
+            <label id="amountlabel">Amount</label>
+        </div>
+        <div id="amountdiv">
+            <input id="amountinput" type="number" placeholder="Enter amount">
+        </div>
+        
+        <div id="fromtodiv">
+            <div id="fromdiv">
+                <label id="fromlabel">From</label>
+                <div class="selectdiv">
+                     <div id="fromflagdiv" class="flags">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                    </div>
+                    <select class="selectbtn">
+                        <option>USD</option>
+                        <option>INR</option>
+                        <option>EUR</option>
+                        <option>GBP</option>
+                    </select>
+                </div>
+            </div>
+            <div id="arrowsdiv">
+                ⇄
+            </div>
+            <div id="todiv">
+                <label id="tolabel">To</label>
+                <div class="selectdiv">
+                     <div id="fromflagdiv" class="flags">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                    </div>
+                    <select class="selectbtn">
+                    <option>USD</option>
+                    <option>INR</option>
+                    <option>EUR</option>
+                    <option>GBP</option>
+                </select>
+                </div>
+            </div>
+        </div>
+        <div id="rate" class="lasttwo">
+            1 USD = 83.45 INR
+        </div>
+        <button id ="btn" class="lasttwo">
+            Convert Currency
+        </button>
+    </div>
+</body>
+</html>
