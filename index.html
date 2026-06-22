@@ -22,9 +22,9 @@
                 <label id="fromlabel">From</label>
                 <div class="selectdiv">
                      <div id="fromflagdiv" class="flags">
-                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                        <img  id="fromimg" src="https://flagsapi.com/US/flat/64.png" alt="flag">
                     </div>
-                    <select class="selectbtn">
+                    <select id="fromselect" class="selectbtn">
                         <option>USD</option>
                         <option>INR</option>
                         <option>EUR</option>
@@ -38,12 +38,12 @@
             <div id="todiv">
                 <label id="tolabel">To</label>
                 <div class="selectdiv">
-                     <div id="fromflagdiv" class="flags">
-                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                     <div id="toflagdiv" class="flags">
+                        <img id="toimg" src="https://flagsapi.com/IN/flat/64.png" alt="flag">
                     </div>
-                    <select class="selectbtn">
-                    <option>USD</option>
+                    <select id="toselect" class="selectbtn">
                     <option>INR</option>
+                    <option>USD</option>
                     <option>EUR</option>
                     <option>GBP</option>
                 </select>
@@ -57,5 +57,6 @@
             Convert Currency
         </button>
     </div>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
