@@ -6,7 +6,7 @@ A modern and responsive currency converter built with **HTML, CSS, and JavaScrip
 
 **Try the application here:**
 
-[## Click Here]([url](https://adityaingole1550.github.io/Currency-Converter---Made-by-me/))
+[## Click Here](https://adityaingole1550.github.io/Currency-Converter---Made-by-me/)
 
 ---
 
